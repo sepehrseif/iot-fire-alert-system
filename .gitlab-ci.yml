@@ -1,0 +1,30 @@
+stages:
+  - build
+  - test
+
+variables:
+  MAVEN_CLI_OPTS: "-B -e -V"
+  CI: "true"
+
+build-job:
+  stage: build
+  image: maven:3.9.3-eclipse-temurin-17
+  tags:
+    - docker
+  script:
+    - cd HearMe
+    - mvn $MAVEN_CLI_OPTS compile
+
+test-job:
+  stage: test
+  image: maven:3.9.3-eclipse-temurin-17
+  tags:
+    - docker
+  script:
+    - cd HearMe
+    - mvn $MAVEN_CLI_OPTS test
+  artifacts:
+    when: always
+    reports:
+      junit: target/surefire-reports/TEST-*.xml
+

@@ -1,0 +1,47 @@
+/target/
+/HearMe/target/
+# Node modules folder
+/HearMe/node_modules/
+/node_modules/
+
+# Log files
+*.log
+
+# Test folders
+coverage/
+
+# Generated files
+dist/
+
+# Personal settings
+.env
+
+# Windows systems
+Thumbs.db
+
+# macOS systems
+.DS_Store
+/.DS_Store
+**/.DS_Store
+# WebSocket related files in case of custom settings
+*.sock
+
+/.vscode/
+.vscode/
+**/.vscode
+
+
+JavaApp_*/
+**/JavaApp_*/
+HearMe/JavaApp_*/
+
+
+.idea/
+**/.idea/
+
+.env
+*.env
+config.properties
+
+
+
