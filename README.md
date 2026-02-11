@@ -322,22 +322,17 @@ Welcome to HearMe — a system designed to help deaf individuals detect gas, smo
 
 ### 👥 Team Contributions
 
-Member 1: **Abulfazl**
+Member 1: **Sepehr**
 
 **Role:** Developer
-
 **Contributions:**
 
-•	🗂️ Initialized and maintained the Git repository to kick-start the project.   
-•	🤖 Configured and maintained GitLab CI pipelines for automated builds and Maven-based test verification.    
-•	🧩 Added gas sensor connectivity and disconnection handling.   
-•	🔄 Ensured reliable background processing for uninterrupted operation.   
-•	⏱️ Enabled 24/7 system availability with stable uptime.   
-•	📬 Integrated email notifications for system events.   
-•	📍 Revised location-sharing format for full system compatibility.   
-•	⚙️ Built backend logic in Java (MQTT, WebSocket API).   
-• 🔄 Refactored system to move processing from device to backend for better reliability.   
-• 🧪 Created unit tests to ensure backend functionality.   
+-	🖼️ Integrated the main background and styling into the GUI, hosted via Amazon AWS for enhanced accessibility and performance.
+-	🎨 Polished the GUI by enhancing button font colors and improving overall text readability for better user experience.
+-	🧱 Designed and implemented the main frame structure of the web-based GUI for a clear and responsive user interface.
+-	🌐 contributing to developing and adding a WebSocket server in Java to enable real-time backend-to-frontend communication.	
+-	📳 Implemented real-time message reception from the backend to control the vibration motor through the Java application.
+-	🌍 Added multilingual support, including English and Swedish translations, to improve user experience and inclusivity.
 
 ---
 
@@ -380,17 +375,23 @@ Member 4: **Juliana**
 
 ---
 
-Member 5: **Sepehr**
+Member 5: **Abulfazl**
 
 **Role:** Developer
+
 **Contributions:**
 
--	🖼️ Integrated the main background and styling into the GUI, hosted via Amazon AWS for enhanced accessibility and performance.
--	🎨 Polished the GUI by enhancing button font colors and improving overall text readability for better user experience.
--	🧱 Designed and implemented the main frame structure of the web-based GUI for a clear and responsive user interface.
--	🌐 contributing to developing and adding a WebSocket server in Java to enable real-time backend-to-frontend communication.	
--	📳 Implemented real-time message reception from the backend to control the vibration motor through the Java application.
--	🌍 Added multilingual support, including English and Swedish translations, to improve user experience and inclusivity.
+•	🗂️ Initialized and maintained the Git repository to kick-start the project.   
+•	🤖 Configured and maintained GitLab CI pipelines for automated builds and Maven-based test verification.    
+•	🧩 Added gas sensor connectivity and disconnection handling.   
+•	🔄 Ensured reliable background processing for uninterrupted operation.   
+•	⏱️ Enabled 24/7 system availability with stable uptime.   
+•	📬 Integrated email notifications for system events.   
+•	📍 Revised location-sharing format for full system compatibility.   
+•	⚙️ Built backend logic in Java (MQTT, WebSocket API).   
+• 🔄 Refactored system to move processing from device to backend for better reliability.   
+• 🧪 Created unit tests to ensure backend functionality.   
+
 
 ---
 
